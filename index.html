@@ -6,7 +6,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Text Operation</title>
     <style>
-
+        .btn {
+            border-radius: 20px;
+            background-color: lightblue;
+            color: black;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            cursor: pointer;
+            flex-direction: column;
+            padding: 10px;
+            margin: 10px;
+        }
     </style>
 </head>
 
@@ -14,10 +25,10 @@
     <div id="text-container">
         <h1>Text Operation</h1>
 
-        <button class="btn" id="words-btn">Total words</button>
-        <button class="btn" id="characters-btn"> total characters</button>
-        <button class="btn" id="uppercase-btn">uppercase</button>
-        <button class="btn" id="lowercase-btn">lowercase </button>
+        <button class="btn" id="words-btn" onclick="words">Total words</button>
+        <button class="btn" id="characters-btn" onclick="characters"> total characters</button>
+        <button class="btn" id="uppercase-btn" onclick="uppercase">uppercase</button>
+        <button class="btn" id="lowercase-btn" onclick="lowercase">lowercase </button>
     </div>
     <script>
 
